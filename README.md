@@ -18,7 +18,7 @@ Managing a lot of different third party CSS files can be hard. We may lose track
 We don't really want to clutter our main `assets/stylesheets` folder with CSS files maintained by others. Rails provides the `vendor/assets/stylesheets` folder for these types of CSS files. We can place our third party CSS frameworks in here and add them to our CSS manifest file. We get the added benefit of having all external CSS files combined into one file with all our application CSS files.
 
 ## Gems
-Manually adding CSS to our vendor directory can also be cumbersome and hard to maintain. New version of CSS frameworks are released and it's easy to fall behind. Luckly for us, many of the popular CSS frameworks have gems. These gems package up these CSS frameworks and when installed, add them to our asset path allowing us to require them inside of our CSS manifest file.
+Manually adding CSS to our vendor directory can also be cumbersome and hard to maintain. New version of CSS frameworks are released and it's easy to fall behind. Luckily for us, many of the popular CSS frameworks have gems. These gems package up these CSS frameworks and when installed, add them to our asset path allowing us to require them inside of our CSS manifest file.
 
 To install the Twitter Bootstrap gem in our Gemfile, you will need to add 'gem "bootstrap-sass"' to your Gemfile and run `bundle install`. Once that completes you are able to add `*= require bootstrap` to the CSS manifest file. Now Bootstrap will be loaded by Rails. We can also use bundler to update Twitter Bootstrap when new versions are released. Handling updating is particular helpful for bigger CSS frameworks like Bootstrap that have many CSS files.
 
@@ -26,3 +26,5 @@ To install the Twitter Bootstrap gem in our Gemfile, you will need to add 'gem "
 - [Bootstrap SASS Gem](https://github.com/twbs/bootstrap-sass)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/external-css-frameworks-in-rails' title='External CSS Libraries In Rails'>External CSS Libraries In Rails</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/external-css-frameworks-in-rails'>External CSS Frameworks In Rails</a> on Learn.co and start learning to code for free.</p>
