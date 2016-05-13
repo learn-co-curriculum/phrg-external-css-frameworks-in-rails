@@ -13,7 +13,7 @@ So far we have been loading CSS from our asset directories. You aren't required 
 ```
 
 ## Vendor Assets
-Managing a lot of different third party CSS files can be hard. We may lose track which files are for which CSS frameworks. Also, seperate link tags mean these files will need to be downloaded one by one on the browser and this will slow page load times. At some point, we will probably decide to have these external CSS files be internal CSS files.
+Managing a lot of different third party CSS files can be hard. We may lose track which files are for which CSS frameworks. Also, separate link tags mean these files will need to be downloaded one by one on the browser and this will slow page load times. At some point, we will probably decide to have these external CSS files be internal CSS files.
 
 We don't really want to clutter our main `assets/stylesheets` folder with CSS files maintained by others. Rails provides the `vendor/assets/stylesheets` folder for these types of CSS files. We can place our third party CSS frameworks in here and add them to our CSS manifest file. We get the added benefit of having all external CSS files combined into one file with all our application CSS files.
 
