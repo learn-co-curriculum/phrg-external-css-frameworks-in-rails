@@ -20,7 +20,7 @@ We don't really want to clutter our main `assets/stylesheets` folder with CSS fi
 ## Gems
 Manually adding CSS to our vendor directory can also be cumbersome and hard to maintain. New versions of CSS frameworks are released, and it's easy to fall behind. Luckily for us, many of the popular CSS frameworks have gems. These gems package up these CSS frameworks and, when installed, add them to our asset path, allowing us to require them inside of our CSS manifest file.
 
-To install the Twitter Bootstrap gem in our Gemfile, you will need to add `gem "bootstrap-sass"` to your Gemfile and run `bundle install`. Once that completes, you are able to add `*= require bootstrap` to the CSS manifest file. Now, Bootstrap will be loaded by Rails. We can also use bundler to update Twitter Bootstrap when new versions are released. Handling updating is particular helpful for bigger CSS frameworks like Bootstrap that have many CSS files.
+To install the Twitter Bootstrap gem in our Gemfile, you will need to add `gem "bootstrap-sass"` to your Gemfile and run `bundle install`. Once that completes, you are able to add `*= require bootstrap` to the CSS manifest file. Now, Bootstrap will be loaded by Rails. We can also use bundler to update Twitter Bootstrap when new versions are released. Handling updating is particularly helpful for bigger CSS frameworks like Bootstrap that have many CSS files.
 
 ## References
 - [Bootstrap SASS Gem](https://github.com/twbs/bootstrap-sass)
