@@ -25,4 +25,4 @@ To install the Twitter Bootstrap gem in our Gemfile, you will need to add `gem "
 ## References
 - [Bootstrap SASS Gem](https://github.com/twbs/bootstrap-sass)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/external-css-frameworks-in-rails' title='External CSS Libraries in Rails'>External CSS Libraries in Rails</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>PHRG External CSS Libraries in Rails</p>
